@@ -614,4 +614,4 @@
                 main_parallax.enable();
         }); var show = false; $(document).on("scroll load resize", function () { if (show) return false; if (isScrolledIntoView("#people_study")) { show = true; $('.numbers-section.container .numbers h3').css('opacity', '1'); spinItem("#people_study", 800); spinItem("#subscribers_project", 1500); spinItem("#vk_subs"); spinItem("#on_market", 500); spinItem("#youtube_subs", 2200); } }); function spinItem(id, time = 2000) { $(id).spincrement({ thousandSeparator: " ", duration: time, complete: function () { $(id).text($(id).text() + "+"); } }); } function isScrolledIntoView(elem) { var docViewTop = $(window).scrollTop(); var docViewBottom = docViewTop + $(window).height(); var elemTop = $(elem).offset().top; var elemBottom = elemTop + $(elem).height() + 30; return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)); }</script>
 </body>
-</html>
+</html
