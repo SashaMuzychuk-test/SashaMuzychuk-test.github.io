@@ -2,8 +2,8 @@
 <html leng="ua">
  <body>
     <meta charset="utf-8"
-        <meta name="author" content="Muzychuk Sasha"
-        <meta name="description" content="Test content"
+        <meta name="author" content="Muzychuk Sasha">
+        <meta name="description" content="Html content">
         <metd name="keywords" content="Test HTML">
 
   <h1> Test <abbr title="HTML — це мова тегів, засобами якої здійснюється розмічання веб-сторінок для мережі Інтернет. Браузери отримують HTML-документи з веб-сервера або з локальної пам'яті й передають документи в мультимедійні веб-сторінки. HTML описує структуру веб-сторінки семантично і початково підказки для відображення документа.">HTML</abbr>
